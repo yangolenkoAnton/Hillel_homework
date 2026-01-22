@@ -3,4 +3,4 @@ a = int(input())
 b = int(input())
 c = int(input())
 
-print ("The mean arithmetic is: ", (int (a+b+c) / 3 ))
+print ("The mean arithmetic is: ",  (a+b+c) / 3 )
