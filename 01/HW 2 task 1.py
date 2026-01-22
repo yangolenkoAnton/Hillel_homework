@@ -1,2 +1,2 @@
-number = input("Enter your number: ")
-print ("The square of your number is: ", (int (number) ** 2 ))
+number = int(input("Enter your number: "))
+print ("The square of your number is: ", (number) ** 2 )
