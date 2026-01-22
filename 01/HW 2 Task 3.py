@@ -1,3 +1,2 @@
-print("keep track of the number of minutes : ")
-a = int(input())
-print("your time is: hours - ", int(a)//60, "minutes -  ", int(a)%60)
+a = int(input("keep track of the number of minutes : "))
+print("your time is: hours - ", (a)//60, "minutes -  ", (a)%60)
