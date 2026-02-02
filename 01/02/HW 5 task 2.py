@@ -21,7 +21,7 @@ while True:
      y = input("")
      if y == "y" or y == "Y":
          continue
-     if y == "n" or y == "N":
+     elif y == "n" or y == "N":
          break
 
 
