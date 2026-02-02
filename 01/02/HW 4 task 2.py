@@ -2,11 +2,11 @@
 #[6] => 36
 #[] => 0
 
-first_list = []
+first_list = [6]
 second_list = first_list [0::2]
 a = sum(second_list)
 if first_list == []:
-    print(first_list)
+    print(0)
 else:
  b = int(first_list[-1] * a)
  print(b)
