@@ -17,12 +17,13 @@ while True:
         print("you cannot divide by 0")
       else:
          print(number_1 / number_2)
-     print("do you whant to continue? (y/n): ")
+     print("do you whant to continue? (y): ")
      y = input("")
      if y == "y" or y == "Y":
          continue
-     elif y == "n" or y == "N":
+     else:
          break
+
 
 
 
