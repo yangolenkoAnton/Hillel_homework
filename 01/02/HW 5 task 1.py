@@ -15,6 +15,10 @@ for item in string.punctuation:
         valid = False
 if all( item == "_" for item in name):
     valid = False
+    if len(name) == 1:
+        valid = True
+    else:
+     valid = False
 if name in keyword.kwlist:
     valid = False
 print(valid)
